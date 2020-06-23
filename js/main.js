@@ -11,7 +11,7 @@ function nextQuestion(questions) {
     q.innerHTML = questions[index].question
 
     app.append(q)
-    console.log(questions)
+    
     for (let answer of questions[index].answers) {
         let answer_div = document.createElement('div')
         answer_div.innerHTML = answer.text
